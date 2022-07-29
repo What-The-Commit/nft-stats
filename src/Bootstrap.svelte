@@ -1,0 +1,31 @@
+<style lang="sass" global>
+    // Custom.scss
+    // Option B: Include parts of Bootstrap
+
+    // 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+    @import "../node_modules/bootstrap/scss/functions"
+
+    // 2. Include any default variable overrides here
+    @import "overrides"
+
+    // 3. Include remainder of required Bootstrap stylesheets
+    @import "../node_modules/bootstrap/scss/variables"
+    @import "../node_modules/bootstrap/scss/mixins"
+
+    // 4. Include any optional Bootstrap components as you like
+    @import "../node_modules/bootstrap/scss/maps"
+    @import "../node_modules/bootstrap/scss/root"
+    @import "../node_modules/bootstrap/scss/reboot"
+    @import "../node_modules/bootstrap/scss/type"
+    @import "../node_modules/bootstrap/scss/images"
+    @import "../node_modules/bootstrap/scss/containers"
+    @import "../node_modules/bootstrap/scss/grid"
+    @import "../node_modules/bootstrap/scss/forms"
+    @import "../node_modules/bootstrap/scss/utilities"
+    @import "../node_modules/bootstrap/scss/utilities/api"
+    @import "../node_modules/bootstrap/scss/_accordion.scss"
+    @import "../node_modules/bootstrap/scss/transitions"
+
+    // 5. Add additional custom code here
+    @import "custom"
+</style>

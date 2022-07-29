@@ -1,0 +1,15 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "googlefonts";
+
+$body-bg: tint-color(black, 10%);
+$body-color: white;
+
+$primary: white;
+
+$accordion-button-active-color: shade-color($primary, 90%);
+
+$link-color: white;
+
+$font-press-start: "Press Start 2P";
+
+$font-family-sans-serif: $font-press-start, cursive;
